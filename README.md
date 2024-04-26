@@ -1,6 +1,6 @@
 # 🏋️‍♂️ Aiden Chatbot 🤖
 
-Welcome to Aiden, your exercise companion! Aiden is a chatbot designed to assist you with exercises, recommend personalized workouts, and provide meal plans to support your fitness journey.
+Welcome to Aiden, your exercise companion! Aiden is a chatbot designed to assist you with exercises, recommend personalised workouts, and provide meal plans to support your fitness journey.
 
 ## 📚 Contents
 - `aidenchatbot.py`: The Python script containing the code for the Aiden chatbot.
