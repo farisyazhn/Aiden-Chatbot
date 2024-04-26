@@ -1,0 +1,68 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, how are you?", "Good to see you again. How are you?", "Hi there, how are you?"],
+     "context_set": ""
+    },
+    {"tag": "name",
+    "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+    "responses": ["You can call me Aiden","I'm Aiden","I'm Aiden your exercise assistant"],
+    "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya","bye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+     "context_set": ""
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"],
+    "context_set": ""
+    },
+    {"tag": "time", 
+    "patterns": ["How much do I have to exercise?", "What is the average time someone exercise?", "how long do i have to exercise?", "How many minutes do i need to exercise?", "how long do you recommend me to exercise?"],
+    "responses": ["30 minutes!"],
+    "context_set": ""
+    }, 
+    {"tag": "happy", 
+    "patterns": ["happy", "good", "amazing", "great","i'm okay", "i'm doing good"],
+    "responses": ["That's nice to hear.\n Would like to:\n (a)Gain Stamina\n (b)Build Muscles\n (c)Maintain Healthy Lifestyle"],
+    "context_set": ""
+    },
+    {"tag": "sad", 
+    "patterns": ["sad", "terrible", "sucks", "bad","i'm not okay", "i'm not doing good"],
+    "responses": ["Sorry to hear that. \n Would like to:\n (a)Gain Stamina\n (b)Build Muscles\n (c)Maintain Healthy Lifestyle"],
+    "context_set": ""
+    },
+    {"tag": "recommendation",
+    "patterns": ["recommend me something", "quick recommendation", "what exercise burns the most calorie?"],
+    "responses": ["Running! It burns the most"],
+    "context_set": ""
+    }, 
+    {"tag": "facts",
+    "patterns": ["what exercise burns the most calorie?"],
+    "responses": ["Running! It burns the most"],
+    "context_set": ""
+    }, 
+    {"tag": "invalid",
+    "patterns": ["","qwerty","huh", "asdfghjkl"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "context_set": ""
+    },
+    {"tag": "a",
+    "patterns": ["a", "gain stamina", "get stamina", "stamina"],
+    "responses": ["Workout Plan: https://www.healthifyme.com/blog/increase-stamina-naturally/#exercises-increase-stamina \n Meal Plan: https://www.chatelaine.com/health/diet/meal-plan-for-endurance-athletes/"],
+    "context_set": ""
+    },
+    {"tag": "b",
+    "patterns": ["b", "build muscles", "get muslces", "muscles"],
+    "responses": ["Workout Plan: https://www.coachmag.co.uk/workouts/7596/your-four-week-workout-plan-to-build-muscle \n Meal Plan: https://www.healthline.com/nutrition/bodybuilding-meal-plan#foods-to-eat-and-avoid"],
+    "context_set": ""
+    },
+    {"tag": "c",
+    "patterns": ["c", "maintain a health lifestyle", "stay healthy", "maintain healthy lifestyle"],
+    "responses": ["Workout Plan: https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389#:~:text=Get%20at%20least%20150%20minutes,the%20course%20of%20a%20week. \n Meal Plan: https://www.uspm.com/how-to-maintain-a-healthy-eating-lifestyle/"],
+    "context_set": ""
+    }
+]
+}
